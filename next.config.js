@@ -4,7 +4,7 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  pageExtensions: ["tsx", "ts", "jsx", "js"],
+  output: undefined, // これを追加して、VercelでSSRを有効化！
 };
 
 module.exports = nextConfig;
