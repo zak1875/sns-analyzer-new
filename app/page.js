@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <div>
-      <h1>SNS診断アプリ</h1>
-      <p>動作確認用のテストページです</p>
-    </div>
+    <main>
+      <h1>動作確認テスト</h1>
+      <p>このページが表示されれば成功！</p>
+    </main>
   );
 }
